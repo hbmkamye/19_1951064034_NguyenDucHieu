@@ -1,0 +1,130 @@
+body{
+    line-height: 1.43;
+}
+.my-nav{
+    position: fixed;
+   
+}
+.col-md-12{
+    padding: 0;
+}
+
+/* dấu chấm */
+.dot{
+    width: 13px;
+    height: 24px;
+     text-align: center
+}
+
+/* gạch chân */
+.underline:hover{
+    text-decoration: underline;
+}
+.navbar{
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* main */
+#main{
+    padding-top: 64px;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px ;
+}
+
+.left-main{
+    width: 25%;
+    height: auto;
+    padding-top: 8px;
+
+}
+.center-main{
+    width: 50%;
+    height: auto;
+    padding-top: 16px;
+
+
+}
+.right-main{
+    width: 25%;
+    height: auto;  
+    padding-top: 8px;
+}
+.left-main .weather{
+    
+    padding: 8px;
+    width: 100%;
+    height: 202px;
+  
+    margin: 0;
+}
+img.img-left1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+.center-main .content{
+  
+    padding: 0 16px;
+}
+img.img-center1 {
+    height: 100%;
+    width: 100%;
+
+}
+.main-info{
+    display: flex;
+    height: 80px;
+    padding: 16px;
+
+}
+.img_avt{
+    border-radius:100%;
+   
+}
+.text{
+    padding: 0 16px 16px;
+
+}
+.font-14px{
+    font-size:14px
+}
+.text strong:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.button-btn:hover{
+    background-color: #fafafb;
+}
+.img_avt-cmt{
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+}
+.avt_cmt{
+    margin-top: 12px;
+    padding: 4px;
+}
+.cmt{
+    /* padding:8px 12px 8px; */
+    display: inline-block;
+    background-color: #ebebee;
+    border-radius: 71%;
+}
+/* right */
+.right-main .more{
+    height: 293px;
+    width: 100%;
+    padding: 8px;
+}
+img.img-right1 {
+    width: 100%;
+    height: auto;
+    border-radius: 3%;
+}
+
+
